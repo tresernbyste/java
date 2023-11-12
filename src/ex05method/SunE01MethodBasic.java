@@ -2,7 +2,7 @@ package ex05method;
 
 import java.util.Scanner;
 
-public class E01MethodBasic1
+public class SunE01MethodBasic
 {
 	public static int simpleFunc(int a, int b)  // 내가 만든 메소드  언제든 불러올수 있음 
 	{											//  반환값 있음 , 매게변수 있음

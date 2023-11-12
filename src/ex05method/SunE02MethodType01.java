@@ -4,7 +4,7 @@
 
 package ex05method;
 
-public class E02MethodType01_1   //반환 no 매개 no 호출지점으로 back
+public class SunE02MethodType01
 {
 	static void menuPrint() {  
 		System.out.println("==메뉴를 선택하세요==");
