@@ -14,7 +14,7 @@ public class E05MethodType04_1
 		반환값이 있는 메서드는 주로 우측항이 있거나 출력문 안에서 호출
 		한다.
 		 */
-		int sumOfAge = getTotalAge(3);
+		int sumOfAge = getTotalAge(3);  //반환값을 받아야하는 변수가 있다면 변수로 받아와야한다.
 		System.out.println("입력받은 나이의 합은?"+sumOfAge);
 	}
 	

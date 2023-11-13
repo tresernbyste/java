@@ -19,7 +19,7 @@ public class E01OneDimArray02
 		한다.
 		 */
 		int intNumber = (int)(Math.random()*100);
-		System.out.println("생성된낭수[정수]:"+ intNumber);
+		System.out.println("생성된난수[정수]:"+ intNumber);
 		
 		/*
 		 난수 생성 방법2
@@ -33,8 +33,8 @@ public class E01OneDimArray02
 		
 		/*
 		 로또번호처럼 1~45사이의 난수를 생성하는 방법
-		 1. 0.xxxx현태의 난수를 생성한 후 정수로 변경하기 위해 100을 
-		 	곱한다.
+		 1. 0.xxxx형태의 난수를 생성한 후 정수로 변경하기 위해 100을 
+		 	곱한다. 1~99 9945
 		 2. 45로 %연산하여 나머지를 구한다. 특정 정수는 45로 나누면 
 		 	나머지는 0~44까지만 나오게 된다.
 	 	 3. 0은 구간에 포함되지 않으므로 2번의 결과에 1을 더한다.

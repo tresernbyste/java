@@ -1,24 +1,28 @@
 package ex04controlstatement;
 
-import java.util.Scanner;
+import java.io.IOException;
 
 public class QuNumberYN
 {
 
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException						//예외처리
 	{
-		Scanner scan = new Scanner(System.in);
+	System.out.print("하나의 문자를 입력하세요 : ");
+	int c = System.in.read();
+	
+	if (c >='0' && c <= '9')
+	{
+		System.out.println("숫자입니다.");
 		
-		System.out.println("하나의 문자를 입력하세요:");
-		int num = System.in.read();
-		
-		boolean YN = num > 0   || num <= 0; 
-		System.out.println(YN ? "숫자입니다" : " 숫자가아닙니다");
-		
-		 
-		
-		
+	} else
+	{
+		System.out.println("숫자가 아닙니다.");
 
 	}
+	
+	String str = (c>='0' && c<='9') ? "숫자입니다." : "숫자가아닙니다.";
+		System.out.println(c + "는(은)" + str);	
+	}
+	
+	}
 
-}
