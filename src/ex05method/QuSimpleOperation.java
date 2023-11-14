@@ -1,4 +1,4 @@
-package ex07string;
+package ex05method;
 
 import java.util.Scanner;
 
