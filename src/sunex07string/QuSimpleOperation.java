@@ -21,13 +21,14 @@ public class QuSimpleOperation
 
 	static void arithMetic(int sNum, int eNum)
 	{
-		int s, m, n, mo = 0;
+		int s, m, x, n, mo = 0;
 		s = sNum + eNum;
 		m = sNum - eNum;
+		x = sNum * eNum;
 		n = sNum / eNum;
 		mo = sNum % eNum;
 
-		System.out.printf("두수의 사칙연산 결과 +:%2d -:%2d /:%d %s", s, m, n, mo);
+		System.out.printf("덧셈결과 ->%2d\n뺄셈결과 ->%2d\n곱셈결과->%-3d\n나눗셈 몫->%2d\n나눗셈나머지%2d\n", s, m, x, n, mo);
 
 	}
 

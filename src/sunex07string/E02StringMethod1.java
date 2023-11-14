@@ -42,7 +42,7 @@ public class E02StringMethod1
 		System.out.println();
 		
 		
-//		5.contains  // 포함되어 있는지 확인.   확인하고싶은 문자열.contaings(" ")
+//		5.contains  // 포함되어 있는지 확인.   확인하고싶은 문자열.contaings(" ")  이메일형식인지 특수문자 포함되어있는지 확인할때 많이 사용한다 
 		
 		System.out.println("### 5 ###");
 		System.out.println(str1.contains("To"));
