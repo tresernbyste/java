@@ -24,6 +24,9 @@
 
 package ex08class;
 
+import ex10accessmodifier.FruitBuyer3;
+import ex10accessmodifier.FruitSeller3;
+
 class FruitSeller3 {																	// class 판매자 
 	
 	int numOfApple;
