@@ -39,11 +39,14 @@ public class E07RideAndLoad01
 		A ref1 = new C();
 		B ref2 = new C();
 		C ref3 = new C();
+		A ref4 = new B();
 		
 		System.out.println("오버라이딩 처리된 메소드 ");
 		ref1.rideMethod();
 		ref2.rideMethod();
 		ref3.rideMethod();
+		System.out.println();
+		ref4.rideMethod();
 		
 		System.out.println("오버로딩 처리된 메소드");
 		ref3.loadMethod();		//  C C
