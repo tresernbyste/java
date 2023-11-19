@@ -1,8 +1,8 @@
-package ex05method;
+package test;
 
 
 
-public class QuCircleCalculator
+public class B2_QuCircleCalculator
 {
 
 	static double circleArea(double circleA) {

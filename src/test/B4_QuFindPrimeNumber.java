@@ -1,6 +1,6 @@
-package ex05method;
+package test;
 
-public class QuFindPrimeNumber
+public class B4_QuFindPrimeNumber
 {
 	// 정수 1은 소수가 아니므로 무조건 false를 반환한다.
 	public static boolean isPrimeNumber(int n)

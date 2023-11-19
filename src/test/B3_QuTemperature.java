@@ -1,8 +1,8 @@
-package ex05method;
+package test;
 
 import java.util.Scanner;
 
-public class QuTemperature
+public class B3_QuTemperature
 {
 	
 	public static void main(String[] args)

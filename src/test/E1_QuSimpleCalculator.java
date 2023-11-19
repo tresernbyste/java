@@ -1,5 +1,5 @@
 
-package ex08class;
+package test;
 
 class Calculator
 {

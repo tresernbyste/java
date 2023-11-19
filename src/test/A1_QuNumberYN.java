@@ -1,8 +1,8 @@
-package ex04controlstatement;
+package test;
 
 import java.io.IOException;
 
-public class QuNumberYN
+public class A1_QuNumberYN
 {
 
 	public static void main(String[] args) throws IOException						//예외처리

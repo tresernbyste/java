@@ -1,8 +1,8 @@
-package ex05method;
+package test;
 
 import java.util.Scanner;
 
-public class QuSimpleOperation
+public class B1_QuSimpleOperation
 {
 
 	public static void main(String[] args)

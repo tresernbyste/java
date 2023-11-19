@@ -1,6 +1,6 @@
-package ex06array;
+package test;
 
-public class QuNumberCounter
+public class C1_QuNumberCounter
 {
 
 	public static void main(String[] args)

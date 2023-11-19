@@ -1,6 +1,6 @@
-package ex04controlstatement;
+package test;
 
-public class QuIfMerge
+public class A2_QuIfMerge
 {
 	public static void main(String[] args)
 	{

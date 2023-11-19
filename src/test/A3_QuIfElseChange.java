@@ -1,6 +1,6 @@
-package ex04controlstatement;
+package test;
 
-public class QuIfElseChange
+public class A3_QuIfElseChange
 {
 	public static void main(String[] args)
 	{

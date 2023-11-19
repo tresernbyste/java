@@ -9,11 +9,11 @@
 
 // !not  else  !not 을 하지 않으면 else를 많이 사용해야해 길어진다.
 
-package ex07string;
+package test;
 
 import java.util.Scanner;
 
-public class QuValidateId
+public class D1_QuValidateId
 {
 	public static void main(String[] args)
 	{

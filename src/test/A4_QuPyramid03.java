@@ -1,6 +1,6 @@
-package ex04controlstatement;
+package test;
 
-public class QuPyramid03
+public class A4_QuPyramid03
 {
 	public static void main(String[] args)
 	{

@@ -1,6 +1,6 @@
-package ex04controlstatement;
+package test;
 
-public class Qu3Or7Sum
+public class A4_Qu3Or7Sum
 {
 
 	public static void main(String[] args)
