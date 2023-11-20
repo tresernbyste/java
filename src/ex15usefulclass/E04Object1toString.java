@@ -33,7 +33,7 @@ public class E04Object1toString {
 		yourFriends fnd2 = new yourFriends("헬로비너스");
 		Object fnd3 = new yourFriends("헬로");
 		
-		fnd3.your
+//		fnd3.your
 		System.out.println(fnd1);
 		System.out.println(fnd2);
 		
