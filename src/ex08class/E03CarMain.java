@@ -2,12 +2,12 @@ package ex08class;
 
 class Car{    // 여러가지 자동차 캐릭터를 만듬
 	String carModel;
-	Human owner;
+	Humanclss owner;
 	
 	void initialize() {   
 //		 초기화메서드 1 매개변수가 없는 형태로 항상 고정된 갑으로만 객체를 초기화할수있다. 따라서 확장성이 없는 형태의 메서드이다.
 		carModel = "람보르기니";
-		owner = new Human();                //######################
+		owner = new Humanclss();                //######################
 		owner.name = "스티브로져스";
 		owner.age = 30;
 		owner.energy = 10;
@@ -17,7 +17,7 @@ class Car{    // 여러가지 자동차 캐릭터를 만듬
 	
 	void initialize(String model, int year, String name, int age, int energy) {
 		carModel = model;
-		owner = new Human();   //Class Human 에 저장하겠다.
+		owner = new Humanclss();   //Class Human 에 저장하겠다.
 		owner.name = name;
 		owner.age = age;
 		owner.energy = energy;
@@ -52,7 +52,7 @@ public static void main(String[] args)  // 캐릭터 생성완료 Car4는 못만
 //	게임이라고 생각한다면 모든걸 직접 설정한다는것.
 	Car car2 = new Car();
 	car2.carModel = "밴틀리";
-	car2.owner = new Human();
+	car2.owner = new Humanclss();
 	car2.owner.name = "토니스타크";
 	car2.owner.age = 52;
 	car2.owner.energy = 8;

@@ -1,6 +1,5 @@
 package ex16exception;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class AgeErrorException2 extends Exception{
@@ -35,7 +34,7 @@ public class Ex06DeveloperDefine2 {
 		try {
 			inputAge = scanner.nextInt();
 		}
-		catch(InputMismatchException e) { //  문자로잘못입력
+		catch(InterruptedException e) { //  문자로잘못입력
 			e.printStackTrace();
 			System.exit(0);
 			

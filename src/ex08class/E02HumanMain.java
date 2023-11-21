@@ -6,7 +6,7 @@ public class E02HumanMain
 	public static void main(String[] args)
 	{
 		
-		Human human = new Human();  // 객체화 완료  -- 기본default 캐릭터 - 힙영역에 공간만생김
+		Humanclss human = new Humanclss();  // 객체화 완료  -- 기본default 캐릭터 - 힙영역에 공간만생김
 		
 		human.name ="마이클";		// 객체 를 초기화 하는과정
 		human.age = 28;				// 기본설정.
