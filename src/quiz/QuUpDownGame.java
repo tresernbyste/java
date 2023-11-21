@@ -16,9 +16,11 @@ public class QuUpDownGame {
 			int r = scan.nextInt();
 			if (ranNum == r) {
 				System.out.println("성공!");
+				System.out.println(i + "번째 성공!");
 				break;
 			} else if (ranNum > r) {
 				System.out.println("up!");
+				
 
 			} else {
 				System.out.println("down");
@@ -28,18 +30,28 @@ public class QuUpDownGame {
 
 	static void start() {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("게임을 하려면 1을 종료하시려면 2를 눌러주세요");
-		int r = scan.nextInt();
-		switch (r) {
-		case 1:
-			System.out.println("새로운 게임을 시작합니다.");
-			upDown();
+		while (true) {
+			System.out.println("게임을 하려면 1을 종료하시려면 2를 눌러주세요");
+			int r = scan.nextInt();
+			switch (r)
 
-		case 2:
-			System.out.println("시스템을 종료합니다.");
-			break;
+			{
+			case 1:
+				System.out.println("새로운 게임을 시작합니다.");
+				upDown();
+				break;
 
-		}
+			case 2:
+				System.out.println("시스템을 종료합니다.");
+				return;
+			default:
+				System.out.println(" 다시 입력해 주세요 ");
+				
+				
+				
+
+			}
+	}
 	}
 
 	public static void main(String[] args) {
