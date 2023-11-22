@@ -47,8 +47,8 @@ public class QuBubbleSort {
 		int temp; 
 		int swapCnt = 0;
 		// 크기가 10인 배열이므로 스캔은 9번만 반복하면된다.
-		for (int i = 0; i < arrParam.length - 1; i++) {
-			for (int j = 0; j < arrParam.length - 1 - i; j++) { // j가
+		for (int i = 0; i <= arrParam.length - 1; i++) {
+			for (int j = 0; j <= arrParam.length - 1 - i; j++) { // j가
 
 				if (orderSel == 1) { // 오름차순 선택
 					if (arrParam[j] > arrParam[j + 1])
