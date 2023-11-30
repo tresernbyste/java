@@ -1,8 +1,4 @@
 /sunwooE03MethodType02_1.class
-/.classpath
-/.gitignore
-/.project
-/ex01start/
 /ex02variable/
 /ex03operator/
 /ex04controlstatement/
@@ -17,12 +13,11 @@
 /ex13interface/
 /ex14innerclass/
 /ex15usefulclass/
-/memo/
-/quiz/
-/test/
 /ex16exception/
 /ex17collection/
-/common/
 /ex18lambda/
 /ex19thread/
 /ex20io/
+/quiz/
+/test/
+/ex21jdbc/
