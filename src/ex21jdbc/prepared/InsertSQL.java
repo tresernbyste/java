@@ -1,5 +1,6 @@
 package ex21jdbc.prepared;
 
+import java.util.Date;
 import java.util.Scanner;
 
 import ex21jdbc.connect.IConnectImpl;
@@ -40,8 +41,18 @@ public class InsertSQL extends IConnectImpl{
 			psmt.setString(1, id);
 			psmt.setString(2, pw);
 			psmt.setString(3, name);
+			//날짜입력 1 날짜를 문자열로 입력하는 경우
 			psmt.setString(4, "2018-11-20");
+			//날짜 입ㄹ력 2: Date 형으로 입력하는경우
+//			현재날짜를 JAVA에서 입력하는 경우 아래와 같이 변환과정을 거쳐야한다.
+//			UTIL 패키지로 시간을 얻어온 후 SQL 패키지로 타입을 변환한다.
+//			이때는 date 형으로 입력되므로 setDate()로 인파라미터를 설정해야한다. 
 			
+			Date utilDate = new Date();
+			java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());  // 51번이 있기때문에 풀데이터네임을 써줘야한다. 
+			psmt.setDate(4,sqlDate);
+			
+			// 5. 쿼리실행 및 결과값 반환  
 			int affected = psmt.executeUpdate();
 			System.out.println(affected + "행이 입력되었습니다.");
 		}
