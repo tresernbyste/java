@@ -1,3 +1,5 @@
+// ------------------------------------교재 확인 ----
+
 package quiz;
 
 import java.util.Random;
@@ -45,14 +47,14 @@ public class QuLottoArray {
 					if (arrParam[j] > arrParam[j + 1])
 						temp = arrParam[j];
 					arrParam[j] = arrParam[j + 1];
-					arrParam[j + 1] = temp;
+//					arrParam[j + 1] = temp;  ------------------------------
 
 //					showArray(arrParam, "스왑중오름차순정렬중"+ (swapCnt++));
 				} else if (orderSel == 2) {
 					if (arrParam[j] < arrParam[j + 1])
 						temp = arrParam[j];
 					arrParam[j] = arrParam[j + 1];
-					arrParam[j + 1] = temp;
+//					arrParam[j + 1] = temp; -------------------------------
 
 //					showArray(arrParam, "스왑중내림차순정렬중" + (swapCnt++));
 				}

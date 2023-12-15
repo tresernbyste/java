@@ -1,3 +1,5 @@
+//---------------------------------------------------temp 교재확인
+
 //중복되지 않는 난수 10개(1~99)를 생성하여 크기가 10인 배열에 담는다.
 //오름차순으로 버블정렬한다.(1, 2, 3 …… 10)
 //버블정렬이란 모든 배열요소를 순차적으로 비교하여 스왑(교환)하는 알고리즘이다.
@@ -54,7 +56,7 @@ public class QuBubbleSort {
 					if (arrParam[j] > arrParam[j + 1])
 						temp = arrParam[j];
 					arrParam[j] = arrParam[j + 1];
-					arrParam[j + 1] = temp;
+//					arrParam[j + 1] = temp;
 					
 					
 					showArray(arrParam, "스왑중오름차순정렬중"+ (swapCnt++));
@@ -63,7 +65,7 @@ public class QuBubbleSort {
 					if(arrParam[j] < arrParam[j+1])
 						temp = arrParam[j];
 					arrParam[j] = arrParam[j + 1];
-					arrParam[j + 1] = temp;
+//					arrParam[j + 1] = temp;
 					
 					showArray(arrParam, "스왑중내림차순정렬중" + (swapCnt++));
 				}

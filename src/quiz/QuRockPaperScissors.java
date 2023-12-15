@@ -39,8 +39,8 @@ public class QuRockPaperScissors {
 		
 	}
 	
-	static void start() {
-		System.out.println(1 or 2);
-		int r = 
-	}
+//	static void start() {
+//		System.out.println(1 or 2);
+//		int r = 
+//	}
 }
