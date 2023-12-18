@@ -8,6 +8,7 @@ public class Ex12_Unit implements java.io.Serializable{
 		this.name = name;
 	}
 	
+	// 멤버변수 private선언했기때문에 불러쓰기위함 게터메서드
 	public String getName() {
 		return name;
 	}
